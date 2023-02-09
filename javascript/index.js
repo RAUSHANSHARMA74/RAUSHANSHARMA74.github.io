@@ -1,9 +1,9 @@
-// let homeSection = document.getElementById("#home-section")
+const toggle = document.querySelector(".toggle")
+const header = document.querySelector(".header")
 
-// let home = document.getElementById("#home")
-// home.addEventListener("click", ()=>{
-//     homeSection.style.visibility = "hidden";
-
-// })
+const  toggleleNavebar = () =>{
+    header.classList.toggle("active")
+}
+toggle.addEventListener("click", ()=> toggleleNavebar())
 
 
