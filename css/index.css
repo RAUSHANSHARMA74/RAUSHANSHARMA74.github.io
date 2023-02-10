@@ -68,10 +68,10 @@ body {
 
 /* toggle */
 
-
-
 section{
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    margin-top: 100px;
+    /* height: 20px; */
 }
 
 /* start home  */
@@ -132,16 +132,22 @@ section{
 
 /*end home  */
 
+
+/* start of about */
 #about-section{
-   
+    border: 1px solid green;
+    width: 95%;
+    margin: 10px auto;
+
 }
 
 
-/*  */
+/* end of about */
+
 
 
 /* medium screen media query */
-@media screen and (min-width: 601px) and (max-width:1300px) {
+@media screen and (min-width: 601px) and (max-width:1000px) {
     .header>h1{
         font-size: 40px;
     }
