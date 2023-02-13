@@ -11,6 +11,13 @@
     overflow-x: hidden;
 } */
 
+
+hr{
+    width: 100px;
+    background-color: chocolate;
+    border: 1px solid  crimson;
+}
+
 body {
     background-color: black;
     /* overflow-x: hidden; */
@@ -83,10 +90,13 @@ section{
 }
 
 #home-section {
-    /* border: 1px solid red; */
+    border: 1px solid black;
     width: 50%;
-    margin-top: 270px ;
     margin-left: 50px;
+    margin-bottom: 100px;
+}
+#home-section h2{
+    margin-top: 200px;
 }
 
 .social-links {
@@ -135,15 +145,17 @@ section{
 
 /* start of about */
 #about-section{
-    /* border: 1px solid green; */
-    background-color: black;
-    /* opacity: 0.2; */
+    /* border: 1px solid red; */
     width: 95%;
     margin: 10px auto;
+    padding-top: 100px;
+    margin-bottom: 100px;
 }
-#about-section>p , #about-section>h1{
+#about-section>p, #about-section hr, #about-section>h1{
     margin: 20px;
 }
+
+
 #userdetaile{
     margin: 0px 20px;
 }
@@ -183,6 +195,40 @@ section{
 /* end of about */
 
 /* start of skill */
+#skills-section{
+    border: 1px solid black;
+    width: 95%;
+    margin: 50px auto;
+}
+
+#skills-section h1{
+    color: crimson;
+    margin: 20px 0px;
+    margin-top: 100px;
+}
+.child-skill{
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap: 20px;
+}
+.child-skill>div{
+    /* border: 1px solid yellow; */
+   width: 350px;
+   height: 250px;
+}
+.child-skill img{
+    /* border: 1px solid grey; */
+    width: 200px;
+}
+.child-skill img:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 210px;
+    transition: 0.5s;
+}
+
+
 
 /* end of skill */
 
