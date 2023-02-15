@@ -89,13 +89,13 @@ section{
     top: 0px;
 }
 
-#home-section {
+#home {
     border: 1px solid black;
     width: 50%;
     margin-left: 50px;
     margin-bottom: 100px;
 }
-#home-section h2{
+#home h2{
     margin-top: 200px;
 }
 
@@ -144,14 +144,14 @@ section{
 
 
 /* start of about */
-#about-section{
+#about{
     /* border: 1px solid red; */
     width: 95%;
     margin: 10px auto;
     padding-top: 100px;
     margin-bottom: 100px;
 }
-#about-section>p, #about-section hr, #about-section>h1{
+#about>p, #about hr, #about>h1{
     margin: 20px;
 }
 
@@ -195,13 +195,13 @@ section{
 /* end of about */
 
 /* start of skill */
-#skills-section{
+#skills{
     border: 0px solid black;
     width: 95%;
     margin: 50px auto;
 }
 
-#skills-section h1{
+#skills h1{
     color: crimson;
     margin: 20px 0px;
     margin-top: 100px;
@@ -230,23 +230,23 @@ section{
 /* end of skill */
 
 /* start project  section*/
-#projects-sections{
+#projects{
     border: 1px solid black;
     width: 90%;
     margin: 100px auto;
 }
-#projects-sections>h1{
+#projects>h1{
     margin: 20px 0px;
     margin-top: 100px;
 
 }
-#projects-sections>div{
+#projects>div{
     /* border: 1px solid yellow; */
     display: grid;
     grid-template-columns: repeat(2 , 1fr);
     gap: 20px;
 }
-#projects-sections>div>div{
+#projects>div>div{
     /* border: 1px solid  teal; */
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
@@ -255,7 +255,7 @@ section{
 
 }
 
-#projects-sections>div>div>div{
+#projects>div>div>div{
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
@@ -270,7 +270,7 @@ section{
     background-color: darkcyan;
 }
 
-#projects-sections img{
+#projects img{
     width: 100%;
 }
 
@@ -343,11 +343,11 @@ section{
         width: 100%;
     }
 
-    #home-section{
+    #home{
         display: none;
     }
     /*  */
-    #about-section{
+    #about{
       font-size: 18px;
     }
     .child-section{
@@ -465,12 +465,12 @@ section{
         width: 100%;
     }
 
-    #home-section{
+    #home{
         display: none;
     }
 
     /*  */
-    #about-section{
+    #about{
         font-size: 15px;
       }
       .detail{
@@ -512,7 +512,7 @@ section{
         transition: 0.5s;
     }
     /*  */
-    #projects-sections>div{
+    #projects>div{
         /* border: 1px solid yellow; */
         display: grid;
         grid-template-columns: repeat(1 , 1fr);
