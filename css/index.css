@@ -312,7 +312,7 @@ section{
         transition: all 0.5s linear;
         opacity: 0;
         /* visibility: hidden; */
-        pointer-events: none;
+        /* pointer-events: none; */
     }
     #nav-menu>a{
        flex-direction: column;
@@ -321,9 +321,9 @@ section{
     }
     .active #nav-menu{
         transform: translateX(0);
-        opacity: 1;
+        /* opacity: 1; */
         /* visibility: visible; */
-        pointer-events: auto;
+        /* pointer-events: auto; */
     }
 
     .active  .toggle>i:nth-child(2){
@@ -435,7 +435,7 @@ section{
         transition: all 0.5s linear;
         opacity: 0;
         /* visibility: hidden; */
-        pointer-events: none;
+        /* pointer-events: none; */
     }
     #nav-menu>a{
        flex-direction: column;
