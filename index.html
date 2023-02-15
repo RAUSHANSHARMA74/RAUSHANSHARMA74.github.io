@@ -37,7 +37,8 @@
                 <a class="nav-link home" href="#home">Home</a>
                 <a class="nav-link about" href="#about">About</a>
                 <a class="nav-link skills" href="#skills">Skills</a>
-                <a class="nav-link resume" href="#resume">Resume</a>
+                <!-- <a class="nav-link resume" href="#resume">Resume</a> -->
+                <button id="resume-button-1" onclick="downloadresume()">resume</button>
                 <a class="nav-link projects" href="#projects">Projects</a>
                 <a class="nav-link contact" href="#contact">Contact</a>
             </nav>
@@ -66,10 +67,8 @@
         <!-- home section -->
 
         <!-- about section -->
-        <section id="about" class="about-section" >
-            <p>ME?
-                <hr>
-            </p>
+        <section id="about" class="about section" >
+            <p>ME?<hr></p>
             <h1>About Me</h1>
             
             <div class="child-section">
@@ -79,7 +78,7 @@
                 <div id="userdetaile">
                     <h1>Web Developer</h1>
                     <p id="user-detail-intro">I'm an Full Stack Web Developer, passionate about building great apps in
-                        minimal time. I help
+                        minimal time using HTML | CSS | JAVACRIPT. I help
                         people convert their ideas into to fully functional software projects.</p>
                     <div class="detail">
                         <p><i class="fa-solid fa-chevron-right"></i><span>Birthday :</span>15 Nov 2003</p>
@@ -95,7 +94,7 @@
                         free time, while I'm not coding, I enjoy playing sports or video games and watching movies.</p>
                 </div>
             </div>
-            <button id="resume-button-1" >resume</button>
+            <button id="resume-button-2" onclick="downloadresume()">resume</button>
 
         </section>
         <!-- about section -->
@@ -211,13 +210,7 @@
 
 
 
-        <!-- resume section -->
-        <section id="resume">
-            <p>RESUME------</p>
-            <h1>CHECK MY RESUME</h1>            
-            <button id="resume-button-2">resume</button>
-        </section>
-        <!-- resume section -->
+      
 
 
         <!-- contact section -->
@@ -226,15 +219,22 @@
 
         </section>
         <!-- contact section -->
+
         <!-- GITHUB -->
+      
         <section class="react-activity-calendar">
+            <h1>GitHub React-Activity-Calendar</h1>
             <img id="github-streak-stats"
-                src="https://github-readme-streak-stats.herokuapp.com?user=RAUSHANSHARMA74&theme=dark&border_radius=4.3&disable_animations=true"
-                alt="">
-            <p id="github-top-langs"></p>
-            <p id="github-stats-card" ></p>
+                src="https://github-readme-streak-stats.herokuapp.com?user=RAUSHANSHARMA74&theme=holi-theme&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
+                alt="streakstat" /> <br>
+            <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RAUSHANSHARMA74"
+                alt="top_languages" /> <br>
+            <img id="github-stats-card"
+                src="https://github-readme-stats.vercel.app/api?username=RAUSHANSHARMA74&count_private=true"
+                alt="stat-card" />
         </section>
         <!-- GITHUB -->
+
     </div>
 </body>
 
