@@ -310,6 +310,30 @@ section {
 
 /* end project section */
 
+/*  */
+.react-activity-calendar{
+    /* border: 1px solid red; */
+    width: 95%;
+    margin: auto;
+    padding-top: 100px;
+}
+.react-activity-calendar>h1{
+    margin-bottom: 50px;
+}
+
+.react-activity-calendar>div{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.react-activity-calendar img{
+    /* border: 1px solid yellow; */
+    width: 30%;
+}
+
+
 
 @media screen and (min-width: 601px) and (max-width:1000px) {
     .img-div>img {
@@ -435,7 +459,7 @@ section {
     }
     
     .skills-card {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -446,12 +470,12 @@ section {
     .skills-card>div {
         width: 100%;
         height: 260px;
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
        
     }
     
     .skills-card img {
-        border: 1px solid grey;
+        /* border: 1px solid grey; */
         width: 85%;
     }
     
@@ -462,6 +486,7 @@ section {
     }
     
     /*  */
+   
 }
 
 
@@ -617,5 +642,16 @@ section {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
+    .react-activity-calendar>h1{
+        font-size: 20px;
+     }
+    .react-activity-calendar>div{
+       display: grid;
+       /* grid-template-columns: repeat(2, 1fr); */
+    }
+    .react-activity-calendar img{
+       width: 100%;
+    }
+
 
 }
