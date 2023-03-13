@@ -3,14 +3,11 @@
     margin: 0px;
     padding: 0px;
     color: white;
-    font-family: sans-serif;
+    /* font-family: font-family: 'Kanit', sans-serif; */
+    /* font-family: 'Oswald', sans-serif;; */
+    font-family: 'Kanit', sans-serif;
     text-decoration: none;
 }
-
-/* html{
-    overflow-x: hidden;
-} */
-
 
 hr {
     width: 100px;
@@ -20,7 +17,6 @@ hr {
 
 body {
     background-color: black;
-    /* overflow-x: hidden; */
 }
 
 .img-div {
@@ -38,7 +34,7 @@ body {
 
 .header {
     /* border: 1px solid red; */
-    background-color: black;
+    /* background-color: black; */
     width: 100%;
     padding: 15px 10px;
     display: flex;
@@ -53,7 +49,8 @@ body {
 }
 
 #nav-menu {
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
+    background-color: black;
     width: 50%;
     display: flex;
     justify-content: space-around;
@@ -90,7 +87,7 @@ section {
 }
 
 #home {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 50%;
     margin-left: 50px;
     margin-bottom: 100px;
@@ -516,6 +513,7 @@ section {
     #nav-menu {
         /* border: 1px solid rebeccapurple; */
         /* display: none; */
+        background-color: black;
         width: 20%;
         position: absolute;
         background-color: transparent;
@@ -555,6 +553,8 @@ section {
 
     .active #nav-menu {
         transform: translateX(0);
+        border: 2px solid red;
+        background-color:black;
     }
 
     .active .toggle>i:nth-child(2) {
