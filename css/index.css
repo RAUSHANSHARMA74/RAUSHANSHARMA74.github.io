@@ -213,25 +213,25 @@ section {
 .skills-card {
     /* border: 1px solid red; */
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     text-align: center;
     gap: 20px;
 }
 
 .skills-card>div {
     /* border: 1px solid yellow; */
-    width: 350px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
 }
 
 .skills-card img {
-    /* border: 1px solid grey; */
-    width: 200px;
+    border: 1px solid grey;
+    width: 150px;
 }
 
 .skills-card img:hover {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    width: 210px;
+    width: 160px;
     transition: 0.5s;
 }
 
@@ -350,8 +350,6 @@ section {
     }
 
     #nav-menu {
-        /* border: 1px solid rebeccapurple; */
-        /* display: none; */
         width: 40%;
         position: absolute;
         background-color: transparent;
