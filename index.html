@@ -13,23 +13,13 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kanit&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Oswald:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 
-    <!-- position fix div -->
-
-    <div class="img-div">
-        <img src="./image/profile.jpg" alt="">
-    </div>
-
-    <!-- position fix div -->
-
-
-    <h1></h1>
     <!-- position absolute div start -->
 
     <div class="container">
@@ -40,7 +30,7 @@
                 <a class="nav-link home" href="#home">Home</a>
                 <a class="nav-link about" href="#about">About</a>
                 <a class="nav-link skills" href="#skills">Skills</a>
-                <button id="resume-button-1" class="nav-link resume" onclick="downloadresume()">resume</button>
+                <button id="resume-button-1" class="nav-link resume" onclick="downloadresume()">Resume</button>
                 <a class="nav-link projects" href="#projects">Projects</a>
                 <a class="nav-link contact" href="#contact">Contact</a>
             </nav>
@@ -52,25 +42,31 @@
 
         <!-- home section -->
         <section id="home">
-            <h2>I'm a passionate <span>Full Stack Web Developer</span> from Patna</h2>
-
-            <div class="social-links">
-                <a href="https://twitter.com/Raushan07262164" class="twitter" target="_blank"><i
-                        class="fa-brands fa-twitter"></i></a>
-                <a href="https://api.whatsapp.com/send?phone=7462872872" target="_blank"><i
-                        class="fa-brands fa-whatsapp"></i></a>
-                <a href="https://www.linkedin.com/in/raushan-sharma-ab0123248/" class="linkedin" id="contact-linkedin"
-                    target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="https://github.com/RAUSHANSHARMA74/" class="github" id="contact-github" target="_blank"><i
-                        class="fa-brands fa-github"></i></i></a>
+            <h1>HOME
+                <hr>
+            </h1>
+            <div>
+                <div class="homedetail">
+                    <h2>I'm a passionate <span>Full Stack Web Developer</span> from Patna</h2>
+                    <div class="secondResume">
+                        <i class="fa-solid fa-download"></i>
+                        <button id="resume-button-2" onclick="downloadresume()">resume</button>
+                    </div>
+                </div>
+                <div class="img-div">
+                    <img src="./image/profile.jpg" alt="">
+                </div>
             </div>
-        </section>
 
+        </section>
+       
         <!-- home section -->
 
         <!-- about section -->
         <section id="about" class="about section">
-            <h1>About Me <hr></h1>
+            <h1>About Me
+                <hr>
+            </h1>
 
             <div class="child-section">
                 <div>
@@ -95,8 +91,6 @@
                         free time, while I'm not coding, I enjoy playing sports or video games and watching movies.</p>
                 </div>
             </div>
-            <button id="resume-button-2" onclick="downloadresume()">resume</button>
-
         </section>
         <!-- about section -->
 
@@ -206,15 +200,40 @@
 
         <!-- contact section -->
         <section id="contact">
+            <h1>CONTACT
+                <hr>
+            </h1>
+            <div>
+                <div class="social-links">
+                    <a href="https://twitter.com/Raushan07262164" class="twitter" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=7462872872" target="_blank"><i
+                            class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/raushan-sharma-ab0123248/" class="linkedin"
+                        id="contact-linkedin" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/RAUSHANSHARMA74/" class="github" id="contact-github" target="_blank"><i
+                            class="fa-brands fa-github"></i></i></a>
+                </div>
+                <div class="write">
+                    <p>GET IN TOUCH</p>
+                    <form action="">
+                        <input type="name" name="" id="name" placeholder="Name">
+                        <input type="email" name="" id="email" placeholder="Email">
+                        <input type="text" name="" id="message" placeholder="Message">
+                        <button id="send">Send</button>
+                    </form>
+                </div>
 
-
+            </div>
         </section>
         <!-- contact section -->
 
         <!-- GITHUB -->
 
         <section class="react-activity-calendar">
-            <h1>GitHub React-Activity-Calendar <hr></h1>
+            <h1>GitHub React-Activity-Calendar
+                <hr>
+            </h1>
             <div>
                 <img id="github-streak-stats"
                     src="https://github-readme-streak-stats.herokuapp.com?user=RAUSHANSHARMA74&theme=holi-theme&hide_border=true&border_radius=6.5&date_format=M%20j%5B%2C%20Y%5D"
