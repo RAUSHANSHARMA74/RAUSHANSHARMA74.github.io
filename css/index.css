@@ -422,7 +422,7 @@ section {
   width: 30%;
 }
 
-@media screen and (min-width: 601px) and (max-width: 1000px) {
+@media screen and (min-width: 660px) and (max-width: 1000px) {
   .header {
     z-index: 1;
   }
@@ -561,10 +561,6 @@ section {
 
   /*  */
 
-  #skills {
-    /* border: 1px solid red; */
-  }
-
   #skills > h1 {
     margin: 100px;
     margin-left: 30px;
@@ -602,9 +598,7 @@ section {
   }
 
   /*  */
-  #projects {
-    /* border: 1px solid red; */
-  }
+
 
   #projects > h1 {
     margin: 100px;
@@ -634,10 +628,6 @@ section {
   }
 
   /*  */
-
-  #contact {
-    /* border: 1px solid red; */
-  }
 
   #contact > h1 {
     margin: 100px;
@@ -712,7 +702,7 @@ section {
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 659px) {
   .header {
     z-index: 1;
   }
