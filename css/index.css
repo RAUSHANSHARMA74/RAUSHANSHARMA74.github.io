@@ -422,7 +422,7 @@ section {
   width: 30%;
 }
 
-@media screen and (min-width: 660px) and (max-width: 1000px) {
+@media screen and (min-width: 600px) and (max-width: 900px) {
   .header {
     z-index: 1;
   }
@@ -702,7 +702,7 @@ section {
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 659px) {
+@media screen and (min-width: 0px) and (max-width: 599px) {
   .header {
     z-index: 1;
   }
