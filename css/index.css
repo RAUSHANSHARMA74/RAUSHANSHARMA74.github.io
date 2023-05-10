@@ -99,9 +99,9 @@ section {
 
 .secondResume {
   border: 1px solid gray;
-  width: 150px;
+  width: 155px;
   padding: 10px;
-  margin: 20px 0px;
+  margin: 10px 0px;
   border-radius: 10px;
   cursor: pointer;
 }
