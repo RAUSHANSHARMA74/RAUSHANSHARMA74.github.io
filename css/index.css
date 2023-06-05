@@ -262,7 +262,7 @@ section {
 .project-card {
   border: 1px solid grey;
   margin: 15px 5px;
-  font-size: 25px;
+  font-size: 20px;
   padding: 20px 10px;
 }
 
@@ -277,9 +277,10 @@ section {
 .project-github-link,
 .project-deployed-link {
   /* border: 1px solid crimson; */
-  padding: 10px 20px;
+  padding: 5px 20px;
   background-color: blue;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  font-size: 17px;
 }
 
 /* contact section */
