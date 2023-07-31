@@ -362,7 +362,17 @@ section {
 }
 
 #message {
-  height: 200px;
+  display: block;
+  height: 150px;
+  width: 500px;
+  margin: 20px;
+  color: white;
+  outline: none;
+  background-color: black;
+  border: 1px solid grey;
+  font-size: 25px;
+  padding-left: 10px;
+  resize: none;
 }
 
 #send {
@@ -663,6 +673,20 @@ section {
 
   .write > p {
     font-size: 40px;
+  }
+
+  .message{
+    display: block;
+  height: 150px;
+  width: 500px;
+  margin: 20px;
+  color: white;
+  outline: none;
+  background-color: black;
+  border: 1px solid grey;
+  font-size: 25px;
+  padding-left: 10px;
+  resize: none;
   }
 
   /*  */
@@ -980,8 +1004,22 @@ section {
   }
 
   #message {
+    display: block;
     height: 200px;
+    width: 300px;
+    margin: 20px;
+    color: white;
+    outline: none;
+    background-color: black;
+    border: 1px solid grey;
+    font-size: 25px;
+    padding-left: 10px;
+    resize: none;
   }
+  .message{
+   
+  }
+
 
   #send {
     margin: 5px 15px;

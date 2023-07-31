@@ -218,11 +218,13 @@
                 <div class="write">
                     <p>GET IN TOUCH</p>
                     <form action="">
-                        <input type="name" name="" id="name" placeholder="Name">
-                        <input type="email" name="" id="email" placeholder="Email">
-                        <input type="text" name="" id="message" placeholder="Message">
-                        <button id="send">Send</button>
+                        <input type="text" name="name" id="name" placeholder="Name" required>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                        <textarea class="form-control" name="message" id="message" rows="50" cols="50" placeholder="Message" required></textarea>
+                        <button type="submit" id="send">Send</button>
                     </form>
+                    
+                    
                 </div>
 
             </div>
