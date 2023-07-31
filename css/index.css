@@ -52,13 +52,6 @@ header {
   font-size: 30px;
 }
 
-.resume {
-  border: 0px;
-  background-color: black;
-  color: white;
-  font-size: 30px;
-}
-
 .toggle {
   display: none;
 }
@@ -157,7 +150,8 @@ section {
 }
 
 .home-img {
-  width: 90%;
+  margin-top: 100px;
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -210,7 +204,7 @@ section {
 .skills-card {
   /* border: 1px solid red; */
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   text-align: center;
   gap: 20px;
 }
@@ -470,14 +464,6 @@ section {
     margin-top: 40px;
   }
 
-  .resume {
-    /* border: 1px solid red; */
-    border: 0px;
-    background-color: black;
-    margin-top: 15px;
-    font-size: 30px;
-  }
-
   .active #nav-menu {
     transform: translateX(0);
   }
@@ -731,14 +717,14 @@ section {
   #nav-menu {
     width: 40%;
     position: absolute;
-    background-color: transparent;
+    background-color: #000000E2;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 10px;
     font-size: 20px;
-    top: 70px;
+    top: 69px;
     right: -10px;
     transform: translateX(100%);
     transition: all 0.5s linear;
@@ -747,14 +733,6 @@ section {
   #nav-menu > a {
     flex-direction: column;
     margin: 10px;
-  }
-
-  .resume {
-    /* border: 1px solid red; */
-    border: 0px;
-    background-color: black;
-    margin-top: 15px;
-    font-size: 20px;
   }
 
   .active #nav-menu {
@@ -978,13 +956,11 @@ section {
   }
 
   .social-links i:hover {
-    /* border: 1px solid red; */
     font-size: 20px;
-    /* color: blueviolet; */
+    
   }
 
   .write {
-    /* border: 1px solid rebeccapurple; */
     width: 100%;
     margin-top: 20px;
   }
@@ -1016,7 +992,6 @@ section {
 
   #send:hover {
     border: 1px solid teal;
-    /* background-color: orangered; */
   }
 
   /*  */
